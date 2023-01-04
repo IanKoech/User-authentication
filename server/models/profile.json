@@ -1,0 +1,23 @@
+{
+  "name": "Profile",
+  "base": "RoleMapping",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "first_name": {
+      "type": "buffer"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
